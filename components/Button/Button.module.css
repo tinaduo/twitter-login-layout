@@ -1,3 +1,38 @@
 .button {
     background-color: var(--blue);
+    color: var(--white);
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 20px;
+    border: none;
+    width: 301px;
+    height: 40px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttontwo {
+    background-color: var(--white);
+    color: var(--blue);
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 20px;
+    border: 1px solid var(--lightgray);
+    width: 301px;
+    height: 40px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttongoogle {
+    background-color: var(--white);
+    color: var(--gray);
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 20px;
+    border: 1px solid var(--lightgray);
+    width: 301px;
+    height: 40px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
 }

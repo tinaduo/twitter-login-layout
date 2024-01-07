@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
-import Button from '@/components/Button'
+import {Button, ButtonGoogle, ButtonTwo} from '@/components/Button'
 
 
 export default function Home() {
@@ -15,7 +15,14 @@ export default function Home() {
       </Head>
       <main className={`${styles.main}`}>
     <h1>Happening now</h1>
+    <h2>Join Today.</h2>
+    <ButtonGoogle/>
     <Button/>
+    <p>By signing up, you agree to the Terms of Service and Privacy 
+Policy, including Cookie Use.</p>
+
+<h3>Already have an account?</h3>
+<ButtonTwo/>
       </main>
     </>
   )

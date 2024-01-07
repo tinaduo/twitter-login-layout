@@ -2,5 +2,18 @@
 --blue: #1D9BF0;
 --white: #ffffff;
 --gray: #536471;
+--lightgray: #CFD9DE;
 --black: #0F1419;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 30px;
 }
