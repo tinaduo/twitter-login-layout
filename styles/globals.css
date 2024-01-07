@@ -3,6 +3,8 @@
 --white: #ffffff;
 --gray: #536471;
 --lightgray: #CFD9DE;
+--inputgray: #EFF3F4;
+--darkgray: #3C4043;
 --black: #0F1419;
 }
 
@@ -11,9 +13,108 @@
 }
 
 h1 {
-    font-size: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    font-size: 50px;
+    margin-bottom: auto;
 }
 
 h2 {
     font-size: 30px;
+    margin-top: auto;
+}
+
+p {
+    color:var(--gray);
+}
+
+.Bluetext {
+    color: var(--blue);
+}
+
+.Login {
+    gap: 20px;
+}
+
+.GoogleAppleContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+hr {
+    border: none; 
+    border-top: 1px solid var(--inputgray);
+    height: 1px; 
+    width: 135px;
+}
+
+.ORlineContainer {
+    width: 300px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.orText {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.Cookies {
+    width: 301px;
+    font-size: 12px;
+}
+
+.CreateContainer {
+    width: 301px;
+    gap: 8px; 
+}
+
+.Headers {
+    display:flex;
+    gap: 51px;
+    flex-direction: column;
+}
+
+
+
+.XlogoContainer {
+    height: 668px;
+    width: 0px;
+    padding: 41px 345px 41px 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Xlogo {
+    width: 300px;
+    height: 300px;
+}
+
+.AccountContainer {
+    display: flex;
+    padding: 20px;
+    width: px;
+    height: 610px;
+    flex-direction: column;
+    margin: 100px 88px 0px 16px;
+}
+
+.CreateContainer {
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
+
+h3 {
+    margin-top: 60px;
 }

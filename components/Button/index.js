@@ -13,6 +13,12 @@ export function ButtonTwo() {
 
 export function ButtonGoogle() {
     return(
-       <button className={style.buttongoogle}><img src="public/google-icon-logo.svg"></img>Sign in With Google</button> 
+       <button className={style.buttongoogle}><img class={style.googlelogo}src="/google-icon-logo.svg"></img>Sign in With Google</button> 
+    )
+}
+
+export function ButtonApple() {
+    return(
+       <button className={style.buttonapple}><img class={style.applelogo}src="/apple-logo.svg"></img>Sign in With Apple</button> 
     )
 }

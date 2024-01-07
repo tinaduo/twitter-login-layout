@@ -26,8 +26,7 @@
 
 .buttongoogle {
     background-color: var(--white);
-    color: var(--gray);
-    font-weight: bold;
+    color: var(--darkgray);
     font-size: 15px;
     border-radius: 20px;
     border: 1px solid var(--lightgray);
@@ -35,4 +34,50 @@
     height: 40px;
     cursor: pointer;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.googlelogo {
+    align-items: center;
+    width: 17px;
+    height: auto;
+}
+
+.buttongoogle {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 12px;
+    justify-content: center;
+    background-color: var(--white);
+    color: var(--darkgray);
+    font-size: 15px;
+    border-radius: 20px;
+    border: 1px solid var(--lightgray);
+    width: 301px;
+    height: 40px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.applelogo {
+    align-items: center;
+    width: 17px;
+    height: auto;
+}
+
+.buttonapple {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 12px;
+    font-weight: bold;
+    justify-content: center;
+    background-color: var(--white);
+    color: var(--darkgray);
+    font-size: 15px;
+    border-radius: 20px;
+    border: 1px solid var(--lightgray);
+    width: 301px;
+    height: 40px;
+    cursor: pointer;
 }

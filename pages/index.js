@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
-import {Button, ButtonGoogle, ButtonTwo} from '@/components/Button'
+import {Button, ButtonGoogle, ButtonTwo, ButtonApple} from '@/components/Button'
 
 
 export default function Home() {
@@ -14,15 +14,32 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${styles.main}`}>
+    <div className='XlogoContainer'>
+      <img class='Xlogo' src='/X_logo_2023_original.svg'></img>
+    </div>
+    <div className='AccountContainer'>
+    <div className='Headers'>
     <h1>Happening now</h1>
     <h2>Join Today.</h2>
+    </div>
+    <div className='Buttons'>
+    <div className='GoogleAppleContainer'>
     <ButtonGoogle/>
+    <ButtonApple/>
+    <div className='ORlineContainer'>
+      <hr></hr> <p class='orText'>or</p> <hr></hr>
+    </div>
+    </div>
+    <div className='CreateContainer'>
     <Button/>
-    <p>By signing up, you agree to the Terms of Service and Privacy 
-Policy, including Cookie Use.</p>
-
+  <p className='Cookies'>By signing up, you agree to the <span className='Bluetext'>Terms of Service</span> and <span className='Bluetext'>Privacy Policy,</span> including <span className='Bluetext'>Cookie Use.</span></p>
+<div className='Login'>
 <h3>Already have an account?</h3>
 <ButtonTwo/>
+</div>
+</div>
+</div>
+</div> 
       </main>
     </>
   )

@@ -1,9 +1,6 @@
 .main {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: ;
-  padding: 6rem;
-  min-height: 20vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
-
