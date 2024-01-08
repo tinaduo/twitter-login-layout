@@ -16,7 +16,7 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 400px;
+    width: 375px;
     font-size: 50px;
     margin-bottom: auto;
 }
@@ -41,6 +41,7 @@ p {
 .GoogleAppleContainer {
     display: flex;
     flex-direction: column;
+    width: 400px;
     gap: 8px;
 }
 
@@ -74,21 +75,20 @@ hr {
 }
 
 .CreateContainer {
-    width: 301px;
+    width: 400px;
     gap: 8px; 
 }
 
 .Headers {
     display:flex;
+    width: 400px;
     gap: 51px;
     flex-direction: column;
 }
 
-
-
 .XlogoContainer {
-    height: 668px;
-    width: 0px;
+    height: 400px;
+    width: 400px;
     padding: 41px 345px 41px 300px;
     display: flex;
     flex-direction: row;
@@ -104,7 +104,7 @@ hr {
 .AccountContainer {
     display: flex;
     padding: 20px;
-    width: px;
+    width: 400px;
     height: 610px;
     flex-direction: column;
     margin: 100px 88px 0px 16px;
@@ -117,4 +117,16 @@ hr {
 
 h3 {
     margin-top: 60px;
+}
+
+/* Desktop */
+@media only screen and (min-width: 992px) {
+    .MainContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        padding: 0px;
+        margin-bottom: 25px;
+    }
 }

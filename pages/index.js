@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import {Button, ButtonGoogle, ButtonTwo, ButtonApple} from '@/components/Button'
+import Footer from '/components/Footer'
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${styles.main}`}>
+    <div className='MainContainer'>
     <div className='XlogoContainer'>
       <img class='Xlogo' src='/X_logo_2023_original.svg'></img>
     </div>
@@ -40,6 +42,8 @@ export default function Home() {
 </div>
 </div>
 </div> 
+</div>
+<Footer/>
       </main>
     </>
   )
