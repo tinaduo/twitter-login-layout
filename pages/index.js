@@ -3,6 +3,10 @@ import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import {Button, ButtonGoogle, ButtonTwo, ButtonApple} from '@/components/Button'
 import Footer from '/components/Footer'
+import { GoogleLogo, Xlogo, AppleLogo } from '@/components/Image'
+import { HeaderOne, HeaderTwo, HeaderThree } from '@/components/Headers'
+import { OrText, CookiesText } from '@/components/Paragraph'
+import { OrLine } from '@/components/OrLine'
 
 
 export default function Home() {
@@ -15,29 +19,29 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${styles.main}`}>
-    <div className='MainContainer'>
-    <div className='XlogoContainer'>
-      <img class='Xlogo' src='/X_logo_2023_original.svg'></img>
+    <div className={`${styles.MainContainer}`}>
+    <div className={`${styles.XlogoContainer}`}>
+      <Xlogo/>
     </div>
-    <div className='AccountContainer'>
+    <div className={`${styles.AccountContainer}`}>
     <div className='Headers'>
-    <h1>Happening now</h1>
-    <h2>Join Today.</h2>
+      <HeaderOne/>
+      <HeaderTwo/>
     </div>
     <div className='Buttons'>
-    <div className='GoogleAppleContainer'>
+    <div className={`${styles.GoogleAppleContainer}`}>
     <ButtonGoogle/>
     <ButtonApple/>
-    <div className='ORlineContainer'>
-      <hr></hr> <p class='orText'>or</p> <hr></hr>
+    <div className={`${styles.ORlineContainer}`}>
+      <OrLine/><OrText/><OrLine/>
     </div>
     </div>
-    <div className='CreateContainer'>
+    <div className={`${styles.CreateContainer}`}>
     <Button/>
-  <p className='Cookies'>By signing up, you agree to the <span className='Bluetext'>Terms of Service</span> and <span className='Bluetext'>Privacy Policy,</span> including <span className='Bluetext'>Cookie Use.</span></p>
-<div className='Login'>
-<h3>Already have an account?</h3>
-<ButtonTwo/>
+  <CookiesText/>
+<div className={`${styles.Login}`}>
+    <HeaderThree/>
+  <ButtonTwo/>
 </div>
 </div>
 </div>

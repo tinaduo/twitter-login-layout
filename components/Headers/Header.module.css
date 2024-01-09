@@ -1,0 +1,18 @@
+.HeaderOne {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 375px;
+    font-size: 45px;
+    margin-bottom: auto;
+}
+
+.HeaderTwo {
+        font-size: 30px;
+        margin-top: auto;
+}
+
+.HeaderThree {
+    font-size: 20px;
+    margin-top: 60px;
+}

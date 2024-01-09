@@ -1,4 +1,6 @@
 import style from './Button.module.css'
+import { AppleLogo, GoogleLogo, XLogo } from '@/components/Image'
+
 export function Button() {
     return(
        <button className={style.button}>Create Account</button> 
@@ -13,12 +15,12 @@ export function ButtonTwo() {
 
 export function ButtonGoogle() {
     return(
-       <button className={style.buttongoogle}><img class={style.googlelogo}src="/google-icon-logo.svg"></img>Sign in With Google</button> 
+       <button className={style.buttongoogle}><GoogleLogo/>Sign in With Google</button> 
     )
 }
 
 export function ButtonApple() {
     return(
-       <button className={style.buttonapple}><img class={style.applelogo}src="/apple-logo.svg"></img>Sign in With Apple</button> 
+       <button className={style.buttonapple}><AppleLogo/>Sign in With Apple</button> 
     )
 }

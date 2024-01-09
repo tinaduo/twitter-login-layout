@@ -1,0 +1,25 @@
+.GoogleLogo {
+    height: 15px;
+    width: auto;
+}
+
+.AppleLogo {
+    height: 15px;
+    width: auto;
+}
+
+.Xlogo {
+    display: flex;
+}
+
+
+@media only screen 
+  and (min-width: 580px) 
+  and (max-width: 1000px)  {
+    .Xlogo {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+} 

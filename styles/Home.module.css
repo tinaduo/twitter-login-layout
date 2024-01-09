@@ -1,7 +1,101 @@
-/* .main {
+.MainContainer {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  padding: 0px;
+  margin-bottom: 25px;
 }
-*/
+
+.XlogoContainer {
+  height: 400px;
+  width: 400px;
+  padding: 41px 345px 41px 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.CreateContainer {
+  width: 400px;
+  gap: 8px; 
+}
+
+.ORlineContainer {
+  width: 300px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.GoogleAppleContainer {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  gap: 8px;
+}
+
+.CreateContainer {
+  width: 400px;
+  gap: 8px; 
+}
+
+.AccountContainer {
+  display: flex;
+  padding: 20px;
+  width: 400px;
+  height: 610px;
+  flex-direction: column;
+  margin: 100px 88px 0px 16px;
+}
+
+@media only screen and (min-width: 992px) {
+  .MainContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      padding: 0px;
+      margin-bottom: 25px;
+  }
+}
+
+/* iPad Air*/
+@media only screen 
+  and (min-width: 580px) 
+  and (max-width: 1000px)  {
+  .MainContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      scale: 1.2;
+      height: 1000px;
+      padding: 0px;
+  }
+
+  .XlogoContainer {
+      height: 45px;
+      width: 45px;
+      padding:20px 345px 0px 0px;
+      margin-top: 25px;
+  }
+
+  .AccountContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      display: flex;
+      padding: 20px;
+      width: 400px;
+      height: 610px;
+      scale: 1.0;
+      flex-direction: column;
+      margin: 19px 29px 88px 0px;
+  }
+}

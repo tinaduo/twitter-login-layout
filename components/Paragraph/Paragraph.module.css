@@ -1,0 +1,9 @@
+.OrText, .CookiesText {
+    color:var(--gray);
+    width: 301px;
+    font-size: 12px;
+}
+
+.BlueText {
+    color: var(--blue);
+}

@@ -1,0 +1,6 @@
+.OrLine {
+    border: none; 
+    border-top: 1px solid var(--inputgray);
+    height: 1px; 
+    width: 135px;
+}
