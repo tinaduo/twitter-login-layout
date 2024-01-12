@@ -53,6 +53,13 @@
   margin: 100px 88px 0px 16px;
 }
 
+.FooterContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 12px;
+}
+
 @media only screen and (min-width: 992px) {
   .MainContainer {
       display: flex;
@@ -66,14 +73,14 @@
 
 /* iPad Air*/
 @media only screen 
-  and (min-width: 580px) 
-  and (max-width: 1000px)  {
+  and (min-device-width: 768px) 
+  and (max-device-width: 768px) {
   .MainContainer {
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      scale: 1.2;
+      scale: 1.5;
       height: 1000px;
       padding: 0px;
   }
@@ -97,5 +104,43 @@
       scale: 1.0;
       flex-direction: column;
       margin: 19px 29px 88px 0px;
+  }
+}
+
+/* iPhone XR */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 828px) {
+    .MainContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      scale: 1.2;
+
+      padding: 0px;
+      margin-bottom: 0px;
+  }
+
+  .XlogoContainer {
+      height: 45px;
+      width: 45px;
+      padding: 90px 235px 25px 0px;
+      margin-top: 25px;
+  }
+
+  .AccountContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      display: flex;
+      padding: 20px;
+      width: 400px;
+      height: 610px;
+      scale: .8;
+      flex-direction: column;
+      margin: -70px 29px 0px 0px;
+      padding-left: 100px;
   }
 }

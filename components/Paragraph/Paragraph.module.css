@@ -1,9 +1,19 @@
-.OrText, .CookiesText {
+.CookiesText {
     color:var(--gray);
     width: 301px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.OrText {
+    color:var(--gray);
     font-size: 12px;
 }
 
 .BlueText {
     color: var(--blue);
+}
+
+.BlueText:hover {
+    text-decoration: underline;
 }

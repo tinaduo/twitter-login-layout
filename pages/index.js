@@ -32,9 +32,9 @@ export default function Home() {
     <div className={`${styles.GoogleAppleContainer}`}>
     <ButtonGoogle/>
     <ButtonApple/>
+    </div>
     <div className={`${styles.ORlineContainer}`}>
       <OrLine/><OrText/><OrLine/>
-    </div>
     </div>
     <div className={`${styles.CreateContainer}`}>
     <Button/>
@@ -47,7 +47,9 @@ export default function Home() {
 </div>
 </div> 
 </div>
+<div className={`${styles.FooterContainer}`}>
 <Footer/>
+</div>
       </main>
     </>
   )

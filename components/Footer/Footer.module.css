@@ -1,5 +1,19 @@
 .footer {
     display: flex;
-    align-items: center;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: var(--darkgray);
+}
+
+.spacing {
+    display: flex;
+    font-size: 12px;
+    flex-wrap: nowrap;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.spacing:hover {
+    text-decoration: underline;
 }
